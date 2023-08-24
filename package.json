@@ -2,7 +2,7 @@
   "name": "angular-app",
   "version": "0.0.0",
   "scripts": {
-    "cibuild": "ng build --prod --no-progress",
+    "cibuild": "npm run ng build --prod --no-progress",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
