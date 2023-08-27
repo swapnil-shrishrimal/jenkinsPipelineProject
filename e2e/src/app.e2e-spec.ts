@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', async () => {
     await page.navigateTo();
-    expect(await page.getTitleText()).toEqual('India becomes the first country to successfully land on the moon\'s south pole!');
+    expect(await page.getTitleText()).toEqual('ISRO');
   });
 
   afterEach(async () => {
